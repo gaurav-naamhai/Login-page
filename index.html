@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <div class="loginpagetitle">
+            <span id="log">Login Form</span>
+        </div>
+        <div class="main">
+            <div class="username">
+             <i class="fa-solid fa-user"></i>
+            <input type="text" id="userid" placeholder="Email or Phone">                
+            </div>
+            <div class="password">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password"  id="pass" placeholder="Password">
+            </div>
+            <div class="forgotpassword">
+                <a href="#">Forgot password?</a>
+            </div>
+                <input type="submit"  value="Login" id="login">
+            <div class="footer">
+                Not a member? <a href="#">Signup now</a>
+            </div>
+            <div id="msg">
+                Please Enter Your Crendentials.
+            </div>
+            
+        </div>
+         <div id="io">Entered Users Are:<ul id="uo"></ul></div>
+
+      <script src="script.js"></script> 
+</body>
+</html>
